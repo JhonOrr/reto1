@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    border-radius: 30px;
+    margin: 250px auto;
+    max-width: 340px;
+    display: flex;
+    align-items: center;
+    max-height: 100vh;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+
+}
+.caja-principal{
+    max-width: 280px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+.tarjeta img{
+    width: 100%;
+    border-radius: 10px;
+}
+.caja-texto{
+    padding: 15px 10px;
+
+}
+.caja-texto h2{
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 10px;
+}
+.caja-texto p{
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 10px;
+}
